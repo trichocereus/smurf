@@ -6,20 +6,51 @@
 
 :root {
   --width: 200px;
-  --height: 300px;
+  --elheight: 300px;
+  --leheight: 330px;
+  --llheight: 200px;
   --x-speed: 13s;
   --y-speed: 7s;
+  --w-speed: 8s;
+  --z-speed: 4s;
+  --t-speed: 16s;
+  --f-speed: 8s;
   --transition-speed: 2.2s;
 }
 
 .bounce {
-  position: absolute;
-  opacity: 80%;
+  position:fixed;
+  opacity: 100%;
+  z-index: 3;
+}
+
+.bounce1 {
+  position: fixed;
+  opacity: 100%;
+  z-index: 2;
+}
+
+.bounce2 {
+  position: fixed;
+  opacity: 100%;
+  z-index: 1;
 }
 
 .el { 
   width: var(--width);
-  height: var(--height);
+  height: var(--elheight);
+  border-radius: 15px;
+}
+
+.le { 
+  width: var(--width);
+  height: var(--leheight);
+  border-radius: 15px;
+}
+
+.ll { 
+  width: var(--width);
+  height: var(--llheight);
   border-radius: 15px;
 }
 
@@ -30,6 +61,22 @@
   animation: y var(--y-speed) linear infinite alternate;
 }
 
+.w {
+  animation: x var(--w-speed) linear infinite alternate;
+}
+
+.z {
+  animation: y var(--z-speed) linear infinite alternate;
+}
+
+.t {
+  animation: x var(--t-speed) linear infinite alternate;
+}
+
+.f {
+  animation: y var(--f-speed) linear infinite alternate;
+}
+
 @keyframes x {
   100% {
     transform: translateX(calc(100vw - var(--width)));
@@ -37,7 +84,7 @@
 }
 @keyframes y {
   100% {
-    transform: translateY(calc(100vw - var(--width)));
+    transform: translateY(calc(500% - var(--width)));
   }
 }
 
@@ -49,9 +96,10 @@
   font-size: 30px;
   background-image: url("./assets/bck.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-attachment: scroll;
   background-position: center;
+  width: 100%;
 }
 
 .header {
@@ -71,14 +119,8 @@
 .item {
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.item2 {
-  margin-top: 30px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 h1 {
@@ -117,8 +159,19 @@ h1 {
 
 .top {
   font-size: 120px;
+  width: 100%;
+}
+
+.bottom {
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: black;
 }
 
 .App-logo {
   border-radius: 20px;
+}
+
+.front {
+  z-index: 10;
+  position: relative;
 }

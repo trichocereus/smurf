@@ -10,7 +10,7 @@ function Modal(props) {
   return (
     <div className="modal" onClick={props.onClose}>
       <div className="modal-content">
-        <p className='text'>Enter</p>
+        <p className='text'>ENTER</p>
       </div>
     </div>
   );
