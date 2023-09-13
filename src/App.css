@@ -152,3 +152,13 @@ h1 {
   z-index: 10;
   position: relative;
 }
+
+@font-face {
+  font-family: fairy;
+  src: url(./assets/fonts/fairy.ttf)
+}
+
+.fairy {
+  font-family: fairy;
+  color: #ffffff;
+}

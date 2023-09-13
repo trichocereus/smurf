@@ -58,10 +58,10 @@ function App() {
         <header className="App-header">
         <div className='container front'>
           <div className='item'>
-            <a href='https://etherscan.io/address/0xe16ea1f7d9a1e28f79709D5D4bCC5dbD03C2971B '><img src={es} width='120px'/></a>
+            <a href='https://etherscan.io/token/0xff836a5821e69066c87e268bc51b849fab94240c'><img src={es} width='120px'/></a>
           </div>
           <div className='item'>
-            <a href='https://t.me/'><img src={tg} width='120px'/></a>
+            <a href='https://t.me/smurfcateth'><img src={tg} width='120px'/></a>
           </div>
           <div className='item'>
             <a href='https://twitter.com/smurfcateth'><img src={tw} width='120px'/></a>
@@ -77,7 +77,8 @@ function App() {
         <h1 className='bottom front'>the only smart blue smurf cat</h1>
         <img src={db} width='500vw' className='front'/>
         <h1 className='top front'>смешной мем (funy)</h1>
-        <p className='title front'>LIQUIDITY BURNED, CONTRACT RENOUNCED, ZERO TAX.</p>
+        <p className='title front'>ZERO TAX, CONTRACT RENOUNCED, LIQUIDITY BURNED. <br/>100% OF SUPPLY SENT TO LIQUIDITY</p>
+        <p className='fairy'>concept by nate hallinan 2014, made possible by dmitri</p>
       </body>
     </div>
   );
