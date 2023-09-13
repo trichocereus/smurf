@@ -7,8 +7,8 @@
 :root {
   --width: 200px;
   --elheight: 300px;
-  --leheight: 330px;
-  --llheight: 200px;
+  --leheight: 300px;
+  --llheight: 300px;
   --x-speed: 13s;
   --y-speed: 7s;
   --w-speed: 8s;
@@ -49,7 +49,7 @@
 }
 
 .ll { 
-  width: var(--width);
+  width: var(--llwidth);
   height: var(--llheight);
   border-radius: 15px;
 }

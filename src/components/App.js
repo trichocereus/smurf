@@ -80,9 +80,9 @@ function App() {
         <h1 className='bottom front'>шайлушай, Real Smurf Cat</h1>
         <h1 className='bottom front'>HE IS ON HIS WAY</h1>
         <img src={td} width='500vw' className='front'/>
-        <h1 className='top front'>smart blue cat</h1>
+        <h1 className='bottom front'>the only smart blue smurf cat</h1>
         <img src={db} width='500vw' className='front'/>
-        <h1 className='bottom front'>смешной мем (funy)</h1>
+        <h1 className='top front'>смешной мем (funy)</h1>
         <p className='title front'>LIQUIDITY BURNED, CONTRACT RENOUNCED, ZERO TAX.</p>
       </body>
     </div>
