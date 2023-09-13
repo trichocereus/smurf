@@ -67,7 +67,7 @@ function App() {
             <a href='https://twitter.com/smurfcateth'><img src={tw} width='120px'/></a>
           </div>
           <div className='item'>
-            <a href='https://www.dextools.io/app/en/ether/pair-explorer/'><img src={dx} width='105px'/></a>
+            <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x977c5fcf7a552d38adcde4f41025956855497c6d'><img src={dx} width='105px'/></a>
           </div>
         </div>
       </header>
@@ -77,7 +77,7 @@ function App() {
         <h1 className='bottom front'>the only smart blue smurf cat</h1>
         <img src={db} width='500vw' className='front'/>
         <h1 className='top front'>смешной мем (funy)</h1>
-        <p className='title front'>ZERO TAX, CONTRACT RENOUNCED, LIQUIDITY BURNED. <br/>100% OF SUPPLY SENT TO LIQUIDITY</p>
+        <p className='title front'>ZERO TAX, CONTRACT RENOUNCED, LIQUIDITY BURNED FOREVER. <br/>100% OF SUPPLY SENT TO LIQUIDITY AND BURNT<br/> true community token</p>
         <p className='fairy'>concept by nate hallinan 2014, made possible by dmitri</p>
       </body>
     </div>
