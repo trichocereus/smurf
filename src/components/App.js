@@ -9,7 +9,6 @@ import dx from '../assets/dx.png'
 import td from '../assets/td.png'
 import gif from '../assets/gif.gif'
 import eth from '../assets/eth.png'
-import ugly from '../assets/ugly.png'
 import audioFile from '../assets/audio.mp3';
 import '../App.css';
 
@@ -39,11 +38,6 @@ function App() {
           <img className="le z" src={eth}></img>
         </div>
       </div>
-      <div className='bounce1'>
-        <div className="ll-wrap t">
-          <img className="ll f" src={ugly}></img>
-        </div>
-      </div>
       <body>
       <div className='welcome'>
         <Modal show={modalVisible} onClose={closeModal} />
@@ -64,16 +58,16 @@ function App() {
         <header className="App-header">
         <div className='container front'>
           <div className='item'>
-            <a href='https://etherscan.io/token/0x9872fcc6cc3ccf7aad36b081b6d5bb0b468b8478'><img src={es} width='120px'/></a>
+            <a href='https://etherscan.io/address/0xe16ea1f7d9a1e28f79709D5D4bCC5dbD03C2971B '><img src={es} width='120px'/></a>
           </div>
           <div className='item'>
-            <a href='https://t.me/+Go3XKiHO0IA0Yzkx'><img src={tg} width='120px'/></a>
+            <a href='https://t.me/'><img src={tg} width='120px'/></a>
           </div>
           <div className='item'>
-            <a href='https://twitter.com/GokuEthCoin'><img src={tw} width='120px'/></a>
+            <a href='https://twitter.com/smurfcateth'><img src={tw} width='120px'/></a>
           </div>
           <div className='item'>
-            <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x1dbf244d47651d40ecbeb791d2a3856572d5e47b'><img src={dx} width='105px'/></a>
+            <a href='https://www.dextools.io/app/en/ether/pair-explorer/'><img src={dx} width='105px'/></a>
           </div>
         </div>
       </header>
