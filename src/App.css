@@ -1,0 +1,124 @@
+@font-face { font-family: Wonder; src: url('./assets/fonts/wonder.ttf'); }
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --width: 200px;
+  --height: 300px;
+  --x-speed: 13s;
+  --y-speed: 7s;
+  --transition-speed: 2.2s;
+}
+
+.bounce {
+  position: absolute;
+  opacity: 80%;
+}
+
+.el { 
+  width: var(--width);
+  height: var(--height);
+  border-radius: 15px;
+}
+
+.x {
+  animation: x var(--x-speed) linear infinite alternate;
+}
+.y {
+  animation: y var(--y-speed) linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX(calc(100vw - var(--width)));
+  }
+}
+@keyframes y {
+  100% {
+    transform: translateY(calc(100vw - var(--width)));
+  }
+}
+
+.App {
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  background-image: url("./assets/bck.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Or whatever height you want */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.item2 {
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+  font-weight: 1;
+  font-size: 70px;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
+  color: #ffff
+}
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+  font-weight: 1;
+  font-size: 35px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  color: #ffffff
+}
+
+.main {
+  font-size: 50px;
+  margin: 50px 100px;
+  font-family: Wonder, sans-serif;
+  color: #ffffff;
+}
+
+.main2 {
+  font-size: 50px;
+  margin: 50px 100px;
+  font-family: Wonder, sans-serif;
+  color: #ffffff;
+}
+
+.top {
+  font-size: 120px;
+}
+
+.App-logo {
+  border-radius: 20px;
+}
