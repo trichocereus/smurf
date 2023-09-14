@@ -74,10 +74,10 @@ function App() {
         <h1 className='bottom front'>шайлушай, Real Smurf Cat</h1>
         <h1 className='bottom front'>HE IS ON HIS WAY</h1>
         <img src={td} width='500vw' className='front'/>
-        <h1 className='bottom front'>the only smart blue smurf cat</h1>
+        <h1 className='bottom front'>SHAILUSHAI, only smart blue smurf cat</h1>
         <img src={db} width='500vw' className='front'/>
         <h1 className='top front'>смешной мем (funy)</h1>
-        <p className='title front'>ZERO TAX, CONTRACT RENOUNCED, LIQUIDITY BURNED FOREVER. <br/>100% OF SUPPLY SENT TO LIQUIDITY AND BURNT<br/> true community token</p>
+        <p className='title front'>ZERO TAX, CONTRACT RENOUNCED, LIQUIDITY BURNED FOREVER. <br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT<br/> true community token</p>
         <p className='fairy'>concept by nate hallinan 2014, made possible by dmitri</p>
       </body>
     </div>
