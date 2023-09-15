@@ -9,6 +9,7 @@ import dx from '../assets/dx.png'
 import td from '../assets/td.png'
 import gif from '../assets/gif.gif'
 import eth from '../assets/eth.png'
+import ab from '../assets/about.png'
 import audioFile from '../assets/audio.mp3';
 import '../App.css';
 
@@ -72,6 +73,9 @@ function App() {
         </div>
       </header>
         <h1 className='bottom front'>шайлушай, Real Smurf Cat</h1>
+        <div className='front about'>
+            <a href='https://knowyourmeme.com/memes/%D1%88%D0%B0%D0%B9%D0%BB%D1%83%D1%88%D0%B0%D0%B9-smurf-cat' className='fairy'><img src={ab} width='300px'/></a>
+        </div>
         <h1 className='bottom front'>HE IS ON HIS WAY</h1>
         <img src={td} width='500vw' className='front'/>
         <h1 className='bottom front'>SHAILUSHAI, only smart blue smurf cat</h1>
