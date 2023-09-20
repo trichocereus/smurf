@@ -10,6 +10,9 @@ import td from '../assets/td.png'
 import gif from '../assets/gif.gif'
 import eth from '../assets/eth.png'
 import ab from '../assets/about.png'
+import uni from '../assets/uni.png'
+import cmc from '../assets/cmc.png'
+import cg from '../assets/cg.png'
 import audioFile from '../assets/audio.mp3';
 import '../App.css';
 
@@ -71,20 +74,31 @@ function App() {
             <a href='https://www.dextools.io/app/en/ether/pair-explorer/0x977c5fcf7a552d38adcde4f41025956855497c6d'><img src={dx} width='105px'/></a>
           </div>
         </div>
-      </header>
-        <h1 className='bottom front'>шайлушай, Real Smurf Cat</h1>
-        <div className='front about'>
-            <a href='https://knowyourmeme.com/memes/%D1%88%D0%B0%D0%B9%D0%BB%D1%83%D1%88%D0%B0%D0%B9-smurf-cat' className='fairy'><img src={ab} width='300px'/></a>
+        <div className='container front'>
+          <div className='item'>
+            <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'><img src={uni} width='120px'/></a>
+          </div>
+          <div className='item'>
+            <a href='https://coinmarketcap.com/currencies/real-smurf-cat-eth/'><img src={cmc} width='120px'/></a>
+          </div>
+          <div className='item'>
+            <a href='https://www.coingecko.com/en/coins/real-smurf-cat'><img src={cg} width='120px'/></a>
+          </div>
         </div>
-        <h1 className='bottom front'>HE IS ON HIS WAY</h1>
-        <img src={td} width='500vw' className='front'/>
-        <h1 className='bottom front'>SHAILUSHAI, only smart blue smurf cat</h1>
-        <img src={db} width='500vw' className='front'/>
-        <h1 className='top front'>смешной мем (funy)</h1>
-        <p className='title front'>ZERO TAX, CONTRACT RENOUNCED, LIQUIDITY BURNED FOREVER. <br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT<br/> true community token</p>
-        <p className='fairy'>concept by nate hallinan 2014, made possible by dmitri</p>
-      </body>
-    </div>
+      </header>
+      <h1 className='bottom front'>шайлушай, Real Smurf Cat</h1>
+      <div className='front about'>
+        <a href='https://knowyourmeme.com/memes/%D1%88%D0%B0%D0%B9%D0%BB%D1%83%D1%88%D0%B0%D0%B9-smurf-cat' className='fairy'><img src={ab} width='300px'/></a>
+      </div>
+      <h1 className='bottom front'>HE IS ON HIS WAY</h1>
+      <img src={td} width='500vw' className='front'/>
+      <h1 className='bottom front'>SHAILUSHAI, only smart blue smurf cat</h1>
+      <img src={db} width='500vw' className='front'/>
+      <h1 className='top front'>смешной мем</h1>
+      <p className='title front'>ZERO TAX, CONTRACT RENOUNCED, LIQUIDITY BURNED FOREVER. <br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT<br/> true community token</p>
+      <p className='fairy'>concept by nate hallinan 2014, made possible by dmitri</p>
+    </body>
+  </div>
   );
 }
 
