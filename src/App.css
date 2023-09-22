@@ -37,6 +37,7 @@
   width: var(--width);
   height: var(--leheight);
   border-radius: 15px;
+  
 }
 
 .x {
@@ -96,8 +97,8 @@
 .item {
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 h1 {
@@ -165,4 +166,17 @@ h1 {
 
 .about {
   margin: 75px;
+}
+
+.line {
+  margin: 0;
+}
+
+.swap {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.lef {
+  margin-right: 60px;
 }
