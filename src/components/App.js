@@ -14,6 +14,7 @@ import fl from '../assets/fl.png'
 import pl from '../assets/pl.png'
 import ae from '../assets/ae.png'
 import kym from '../assets/kym.png'
+import here from '../assets/here.png'
 import audioFile from '../assets/audio.mp3';
 
 import '../App.css';
@@ -89,10 +90,11 @@ function App() {
           <button className="dropbtn">where to buy</button>
           <div className="dropdown-content-container">
             {/* Links go here */}
+            <a href='#here'><img src={here} width='80px'/>on this site</a>
             <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'><img src={uni} width='80px'/>uniswap</a>
             <a href='https://www.bitget.com/'><img src={bg} width='80px'/>bitget</a>
             <a href='https://poloniex.com/'><img src={pl} width='80px'/>poloniex</a>
-            <a href='https://ascendex.com/en/global-digital-asset-platform'><img src={ae} width='100px'/>ascend ex</a>
+            <a href='https://ascendex.com/en/global-digital-asset-platform'><img src={ae} width='100px'/>ascendex</a>
           </div>
         </div>
       </div>
@@ -105,10 +107,10 @@ function App() {
         <h1 className='top front'>HE IS REAL.</h1>
       <header className="App-header">
       </header>
-      <p className='title'>SMURFCAT IS A MEMECOIN LAUNCHED ON THE ETHEREUM BLOCKCHAIN. THE CRYPTOCURRENCY WAS CREATED AS A TRIBUTE TO THE SMURF CAT INTERNET MEME ORIGINALLY CREATED BY NATE HALLINAN, AND NEWLY POPULARIZED BY TIKTOK.</p>
+      <p className='title'><span className='blue'>SMURFCAT</span> IS A MEMECOIN LAUNCHED ON THE ETHEREUM BLOCKCHAIN. THE CRYPTOCURRENCY WAS CREATED AS A TRIBUTE TO THE SMURF CAT INTERNET MEME ORIGINALLY CREATED BY NATE HALLINAN, AND NEWLY POPULARIZED BY TIKTOK.</p>
       <img src={td} width='400px'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
-      <iframe className='swap' frameborder="0" allow="clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *" src="https://flooz.xyz/embed/trade?swapDisabled=false&swapToTokenAddress=0xfF836A5821E69066c87E268bC51b849FaB94240C&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%23316bc9&backgroundColor=transparent&roundedCorners=24&padding=20&margin=400" ></iframe>
+      <iframe id='here' className='swap' frameborder="0" allow="clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *" src="https://flooz.xyz/embed/trade?swapDisabled=false&swapToTokenAddress=0xfF836A5821E69066c87E268bC51b849FaB94240C&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%23316bc9&backgroundColor=transparent&roundedCorners=24&padding=20&margin=400" ></iframe>
       <p className='fairy'>concept by nate hallinan 2014, made possible by dmitri</p>
     </body>
   </div>
