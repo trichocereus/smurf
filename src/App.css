@@ -203,7 +203,7 @@ h1 {
 .dropdown-content-container {
   display: none;
   position: absolute;
-  background-color: #242424;
+  background-color: #343434;
   width: max-content; /* Set a fixed width */
   z-index: 100;
   border-radius: 15px;

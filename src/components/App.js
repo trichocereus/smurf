@@ -15,6 +15,7 @@ import pl from '../assets/pl.png'
 import ae from '../assets/ae.png'
 import kym from '../assets/kym.png'
 import here from '../assets/here.png'
+import mx from '../assets/mx.png'
 import audioFile from '../assets/audio.mp3';
 
 import '../App.css';
@@ -92,9 +93,10 @@ function App() {
             {/* Links go here */}
             <a href='#here'><img src={here} width='80px'/>on this site</a>
             <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'><img src={uni} width='80px'/>uniswap</a>
-            <a href='https://www.bitget.com/'><img src={bg} width='80px'/>bitget</a>
-            <a href='https://poloniex.com/'><img src={pl} width='80px'/>poloniex</a>
-            <a href='https://ascendex.com/en/global-digital-asset-platform'><img src={ae} width='100px'/>ascendex</a>
+            <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px'/>bitget</a>
+            <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px'/>poloniex</a>
+            <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='100px'/>ascendex</a>
+            <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} width='100px'/>mexc</a>
           </div>
         </div>
       </div>
