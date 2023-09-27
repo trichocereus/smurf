@@ -97,12 +97,25 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-bottom: 45px;
 }
 
 .item {
-  margin-top: 20px;
-  margin-left: 4%;
-  margin-right: 4%;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  margin-left: 1%;
+  margin-right: 0.6%;
+  border: 5px solid #5bb0cc; /* Add a round border */
+  border-radius: 50px; /* Make the border round */
+  padding: 10px 20px; /* Add padding inside the round border */
+  font-family: Impact;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.item span {
+  padding-left: 10px;
 }
 
 h1 {
@@ -119,7 +132,7 @@ h1 {
   font-family: Wonder;
   font-weight: 1;
   font-size: 48px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.75px;
   color: #ebeae3
 }
 
@@ -211,10 +224,10 @@ h1 {
 
 /* Style the dropdown content links */
 .dropdown-content-container a {
-  font-size: 60px;
+  font-size: 50px;
   font-family: Wonder, sans-serif;
   color: #ebeae3;
-  padding: 12px 16px;
+  padding: 12px 20px;
   text-decoration: none;
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center vertically */
@@ -224,12 +237,7 @@ h1 {
 
 /* Add this CSS to style the image icons */
 .dropdown-content-container a img {
-  margin-right: 10px; /* Add spacing between icon and text */
-}
-
-/* Add this CSS to style the text in the dropdown */
-.dropdown-content-container a span {
-  flex-grow: 1; /* Allow text to grow and fill available space */
+  margin-right: 20px; /* Add spacing between icon and text */
 }
 
 /* Style the dropdown content links on hover */
@@ -272,4 +280,16 @@ h1 {
 .blue {
   color: #5bb0cc;
   font-size: 48px;
+}
+
+.uni {
+  background-color: #ff2cd1;
+  color: #ebeae3;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: fairy;
+  margin-left: 10px;
 }
