@@ -98,9 +98,11 @@ function App() {
             <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} width='100px'/>mexc</a>
           </div>
         </div> */}
-      <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'>
-        <button className='uni'>buy on uniswap</button>
-      </a>
+      <div className='dropdown'>
+        <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'>
+          <button className='uni'>buy on uniswap</button>
+        </a>
+      </div>
       </div>
       <body>
           <a>

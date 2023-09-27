@@ -212,6 +212,17 @@ h1 {
   font-family: fairy;
 }
 
+.uni {
+  background-color: #ff2cd1;
+  color: #ebeae3;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: fairy;
+}
+
 /* Style the dropdown content container */
 .dropdown-content-container {
   display: none;
@@ -282,14 +293,3 @@ h1 {
   font-size: 48px;
 }
 
-.uni {
-  background-color: #ff2cd1;
-  color: #ebeae3;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
-  font-size: 30px;
-  font-family: fairy;
-  margin-left: 10px;
-}
