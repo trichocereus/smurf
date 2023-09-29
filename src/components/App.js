@@ -72,7 +72,7 @@ function App() {
           <div className="dropdown-content-container">
             {/* Links go here */}
             <a href='https://knowyourmeme.com/memes/%D1%88%D0%B0%D0%B9%D0%BB%D1%83%D1%88%D0%B0%D0%B9-smurf-cat'><img src={kym} width='80px'/>history</a>
-            <a href='https://flooz.xyz/trade/how-to-buy/0xfF836A5821E69066c87E268bC51b849FaB94240C'><img src={fl} width='80px'/>tutorial</a>
+            <a href='https://flooz.xyz/trade/how-to-buy/0xfF836A5821E69066c87E268bC51b849FaB94240C'><img src={fl} width='80px'/>buy with card</a>
             <a href='https://twitter.com/smurfcateth'><img src={tw} width='80px'/>memes</a>
             <a href='https://t.me/smurfcateth'><img src={tg} width='80px'/>smurf chat</a>
           </div>
@@ -130,7 +130,7 @@ function App() {
       <p className='title'><span className='blue'>SMURFCAT</span> is a memecoin launched on the ethereum blockchain. he is so cute! this little guy is just going on his jolly way!<br/><br/>the token was created as a tribute to the smurf cat internet meme originally created by nate hallinan, and newly popularized by tiktok.</p>
       <img src={td} width='400px'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
-      <p className='fairy'>concept by nate hallinan 2014, made possible by dmitri</p>
+      <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>
     </body>
   </div>
   );
