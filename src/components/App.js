@@ -84,7 +84,7 @@ function App() {
           </div>
         </div> */}
         <div className="dropdown">
-          <button className="dropbtn">buy on exchange</button>
+          <button className="dropbtn">Buy on exchange</button>
           <div className="dropdown-content-container">
             <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} width='80px'/>MEXC</a>
             <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px'/>BITGET</a>
@@ -105,12 +105,12 @@ function App() {
         </div> */}
       <div className='dropdown'>
         <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'>
-          <button className='uni'>buy on uniswap</button>
+          <button className='uni'>Buy on UniSwap</button>
         </a>
       </div>
       <div className='dropdown'>
         <a href='https://flooz.xyz/trade/how-to-buy/0xfF836A5821E69066c87E268bC51b849FaB94240C'>
-          <button className='flooz'>buy with card</button>
+          <button className='flooz'>Buy with card</button>
         </a>
       </div>
       </div>
@@ -154,7 +154,7 @@ function App() {
       <p className='title'><span className='blue'>SMURFCAT</span> is a memecoin launched on the ethereum blockchain. he is so cute! this little guy is just going on his jolly way!<br/><br/>the token was created as a tribute to the smurf cat internet meme originally created by nate hallinan, and newly popularized by tiktok.</p>
       <img src={gif} className='dwayne'/>
       <p className='faqt'>Why smurfcat.eth.limo?</p>
-      <p className='faq'>This website is hosted on the <span className='blue'>inter-planetary file system</span> and routed through <span className='blue'>Ethereum</span> Name Service. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
+      <p className='faq'>This website is hosted on the <span className='blue'>interplanetary file system</span> and routed through <span className='blue'>Ethereum</span> Name Service. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
       <img src={td} width='400px'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
       <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>

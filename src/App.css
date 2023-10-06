@@ -1,5 +1,6 @@
 @font-face { font-family: Wonder; src: url('./assets/fonts/wonder.ttf'); }
 @font-face { font-family: Impact; src: url('./assets/fonts/impact.ttf'); }
+@font-face { font-family: Daisy; src: url('./assets/fonts/daisy.ttf'); }
 @font-face {
   font-family: fairy;
   src: url(./assets/fonts/fairy.ttf)
@@ -203,35 +204,35 @@ h1 {
 
 .dropbtn {
   background-color: #5bb0cc;
-  color: #ebeae3;
-  padding: 10px 20px;
+  color: hsl(53, 17%, 91%);
+  padding: 10px 10px 15px 15px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 30px;
-  font-family: fairy;
+  font-size: 40px;
+  font-family: Daisy;
 }
 
 .uni {
   background-color: #ff2cd1;
   color: #ebeae3;
-  padding: 10px 20px;
+  padding: 10px 10px 15px 15px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 30px;
-  font-family: fairy;
+  font-size: 40px;
+  font-family: Daisy;
 }
 
 .flooz {
   background-color: #5e38f4;
   color: #ebeae3;
-  padding: 10px 20px;
+  padding: 10px 10px 15px 15px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 30px;
-  font-family: fairy;
+  font-size: 40px;
+  font-family: Daisy;
 }
 
 /* Style the dropdown content container */
