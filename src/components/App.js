@@ -153,7 +153,7 @@ function App() {
         </div>
       <p className='title'><span className='blue'>SMURFCAT</span> is a memecoin launched on the ethereum blockchain. he is so cute! this little guy is just going on his jolly way!<br/><br/>the token was created as a tribute to the smurf cat internet meme originally created by nate hallinan, and newly popularized by tiktok.</p>
       <img src={gif} className='dwayne'/>
-      <p className='faqt'>Why smurcat.eth.limo?</p>
+      <p className='faqt'>Why smurfcat.eth.limo?</p>
       <p className='faq'>This website is hosted on the <span className='blue'>inter-planetary file system</span> and routed through <span className='blue'>Ethereum</span> Name Service. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
       <img src={td} width='400px'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
