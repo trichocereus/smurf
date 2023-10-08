@@ -158,7 +158,7 @@ function App() {
       <img src={td} width='400px'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
       <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>
-      <p className='blue smol'>real smurf cat contact: realsmurfcat@outlook.com</p>
+      <p className='blue smol'>real smurf cat contact: smurfcatETHlimo@gmail.com</p>
     </body>
   </div>
   );
