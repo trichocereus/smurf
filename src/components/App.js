@@ -14,6 +14,8 @@ import ae from '../assets/ae.png'
 import kym from '../assets/kym.png'
 import mx from '../assets/mx.png'
 import gif from '../assets/gif.GIF'
+import hat from '../assets/hat.png'
+import hub from '../assets/hub.png'
 import audioFile from '../assets/audio.mp3';
 
 import '../App.css';
@@ -150,12 +152,22 @@ function App() {
             <img src={tg} width='40px' alt='telegram icon' />
             <span>Telegram</span>
           </a>
+          <a href='https://smurfme.app' className='item'>
+            <img src={hat} width='40px' alt='app icon' />
+            <span>PFP Tool</span>
+          </a>
         </div>
       <p className='title'><span className='blue'>SMURFCAT</span> is a memecoin launched on the ethereum blockchain. he is so cute! this little guy is just going on his jolly way!<br/><br/>the token was created as a tribute to the smurf cat internet meme originally created by nate hallinan, and newly popularized by tiktok.</p>
       <img src={gif} className='dwayne'/>
       <p className='faqt'>Why smurfcat.eth.limo?</p>
       <p className='faq'>This website is hosted on the <span className='blue'>interplanetary file system</span> and routed through <span className='blue'>Ethereum</span> Name Service. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
       <img src={td} width='400px'/>
+      <div className='container'>
+          <a href='https://smurfcat.org' className='itembut'>
+            <img src={hub} width='100px' alt='hub icon' />
+            <span>Check out SMURFCAT.ORG</span>
+          </a>
+        </div>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
       <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>
       <p className='blue smol'>real smurf cat contact: smurfcatETHlimo@gmail.com</p>

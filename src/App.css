@@ -119,6 +119,25 @@
   padding-left: 10px;
 }
 
+.itembut {
+  margin-top: 50px;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  margin-left: 1%;
+  margin-right: 0.6%;
+  border: 5px solid #5bb0cc; /* Add a round border */
+  border-radius: 50px; /* Make the border round */
+  padding: 20px 60px; /* Add padding inside the round border */
+  font-family: Impact;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.itembut span {
+  padding-left: 30px;
+}
+
 h1 {
   font-family: Impact;
   font-weight: 1;
