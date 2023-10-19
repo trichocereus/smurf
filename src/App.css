@@ -113,6 +113,7 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 35px;
+  background-color: #0e335b;
 }
 
 .item span {
@@ -120,11 +121,10 @@
 }
 
 .itembut {
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   display: flex;
   align-items: center; /* Vertically center the content */
-  margin-left: 1%;
-  margin-right: 0.6%;
   border: 5px solid #5bb0cc; /* Add a round border */
   border-radius: 50px; /* Make the border round */
   padding: 20px 60px; /* Add padding inside the round border */
@@ -132,6 +132,7 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 50px;
+  background-color: #0e335b;
 }
 
 .itembut span {
@@ -150,7 +151,7 @@ h1 {
 .title {
   padding: 0px 75px 50px 75px;
   font-family: Wonder;
-  font-weight: 1;
+  font-weight: 0;
   font-size: 48px;
   -webkit-text-stroke-width: 0.75px;
   color: #ebeae3
@@ -266,15 +267,16 @@ h1 {
 
 /* Style the dropdown content links */
 .dropdown-content-container a {
-  font-size: 50px;
+  font-size: 40px;
   font-family: Wonder, sans-serif;
   color: #ebeae3;
-  padding: 12px 20px;
+  padding: 20px 55px;
   text-decoration: none;
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center vertically */
   width: 100%;
   box-sizing: border-box;
+  align-self: center;
 }
 
 /* Add this CSS to style the image icons */
@@ -338,7 +340,7 @@ h1 {
 
 .faq {
   font-family: Wonder;
-  font-weight: 1;
+  font-weight: 0;
   font-size: 48px;
   -webkit-text-stroke-width: 0.75px;
   color: #ebeae3;
@@ -348,4 +350,13 @@ h1 {
 .dwayne {
   width: 500px;
   border-radius: 30px;
+  margin-top: 20px;
+}
+
+.caption {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-style: italic;
 }
