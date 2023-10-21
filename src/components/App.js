@@ -16,6 +16,7 @@ import mx from '../assets/mx.png'
 import gif from '../assets/gif.GIF'
 import hat from '../assets/hat.png'
 import hub from '../assets/hub.png'
+import gt from '../assets/gt.png'
 import audioFile from '../assets/audio.mp3';
 
 import '../App.css';
@@ -50,6 +51,7 @@ function App() {
         <div className="dropdown">
           <button className="dropbtn">Buy on exchange</button>
           <div className="dropdown-content-container">
+            <a href='https://www.gate.io/trade/SMURFCAT_USDT'><img src={gt} width='80px'/>GATE</a>
             <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} width='80px'/>MEXC</a>
             <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px'/>BITGET</a>
             <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px'/>POLONIEX</a>
