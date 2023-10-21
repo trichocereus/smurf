@@ -292,6 +292,7 @@ h1 {
 .dropbtn::after {
   content: '\25BC'; /* Down arrow character */
   margin-left: 15px;
+  
 }
 
 /* Show the dropdown content when the dropdown button is hovered or clicked */
