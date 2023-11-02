@@ -18,6 +18,8 @@ import hat from '../assets/hat.png'
 import hub from '../assets/hub.png'
 import gt from '../assets/gt.png'
 import bm from '../assets/bm.png'
+import cs from '../assets/cs.png'
+import ce from '../assets/ce.png'
 import audioFile from '../assets/audio.mp3';
 
 import '../App.css';
@@ -57,7 +59,9 @@ function App() {
             <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} width='80px'/>MEXC</a>
             <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px'/>BITGET</a>
             <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px'/>POLONIEX</a>
+            <a href='https://www.coinstore.com/#/spot/SMURFCATUSDT'><img src={cs} width='80px'/>COINSTORE</a>
             <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='80px'/>ASCENDEX</a>
+            <a href='https://www.coinex.com/en/info/SMURFCAT'><img src={ce} width='80px'/>COINEX</a>
           </div>
         </div>
       <div className='dropdown'>
