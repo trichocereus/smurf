@@ -54,14 +54,14 @@ function App() {
         <div className="dropdown">
           <button className="dropbtn">Buy on exchange</button>
           <div className="dropdown-content-container">
-            <a href='https://www.gate.io/trade/SMURFCAT_USDT'><img src={gt} width='80px'/>GATE</a>
-            <a href='https://www.bitmart.com/trade/en-US?layout=pro&theme=dark&symbol=SMURFCAT_USDT'><img src={bm} width='80px'/>BitMart</a>
-            <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} width='80px'/>MEXC</a>
-            <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px'/>BITGET</a>
-            <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px'/>POLONIEX</a>
-            <a href='https://www.coinstore.com/#/spot/SMURFCATUSDT'><img src={cs} width='80px'/>COINSTORE</a>
-            <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='80px'/>ASCENDEX</a>
-            <a href='https://www.coinex.com/en/info/SMURFCAT'><img src={ce} width='80px'/>COINEX</a>
+            <a href='https://www.gate.io/trade/SMURFCAT_USDT'><img src={gt} width='80px' alt='exchange'/>GATE</a>
+            <a href='https://www.bitmart.com/trade/en-US?layout=pro&theme=dark&symbol=SMURFCAT_USDT' alt='exchange'><img src={bm} width='80px'/>BitMart</a>
+            <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade' alt='exchange'><img src={mx} width='80px'/>MEXC</a>
+            <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px' alt='exchange'/>BITGET</a>
+            <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px' alt='exchange'/>POLONIEX</a>
+            <a href='https://www.coinstore.com/#/spot/SMURFCATUSDT'><img src={cs} width='80px' alt='exchange'/>COINSTORE</a>
+            <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='80px' alt='exchange'/>ASCENDEX</a>
+            <a href='https://www.coinex.com/en/info/SMURFCAT'><img src={ce} width='80px' alt='exchange'/>COINEX</a>
           </div>
         </div>
       <div className='dropdown'>
@@ -76,11 +76,16 @@ function App() {
       </div>
       </div>
       <body>
-        <a>
+        <div>
           <img src={logo} alt="logo" className="App-logo" width='500vw'/>
           <p className='caption'>Smurf Cat with Ethereum Crystal - Nate Hallinan 2023</p>
-        </a>
+        </div>
         <h1 className='top front'>HE IS REAL.</h1>
+        <a href='https://mint.smurfcat.eth.limo/' className='nft'>
+          Official NFT
+        </a>
+
+
         <div className='container'>
           <a href='https://etherscan.io/token/0xff836a5821e69066c87e268bc51b849fab94240c' className='item'>
             <img src={es} width='40px' alt='etherscan icon' />
@@ -126,10 +131,10 @@ function App() {
         </div>
       <p className='faqt'>What does шайлушай mean?</p>
       <p className='faq'><span className='blue'>"Shailushai"</span> is the name that TikTok gave the real smurf cat! It's a gibberish word in Russian but is similar to a word that translates to <span className='blue'>"little scoundrel."</span></p>
-      <img src={gif} className='dwayne'/>
+      <img src={gif} className='dwayne' alt='dwayne'/>
       <p className='faqt'>Why smurfcat.eth.limo?</p>
       <p className='faq'>This website is hosted on the <span className='blue'>interplanetary file system</span> which is a public blockchain for data. It is routed through <span className='blue'>Ethereum</span> Name Service and the browser reads <span className='blue'>ipfs</span> data through a "limo" extension. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
-      <img src={td} width='400px'/>
+      <img src={td} width='400px' alt='real'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
       <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>
       <p className='blue smol'>real smurf cat contact: smurfcatETHlimo@gmail.com</p>

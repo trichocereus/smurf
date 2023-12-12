@@ -101,6 +101,22 @@
   padding-bottom: 45px;
 }
 
+.nft {
+  display: flex;
+  justify-content: center; /* Vertically center the content */
+  border: 5px solid #ffffff; /* Add a round border */
+  border-radius: 50px; /* Make the border round */
+  padding-top: 30px; /* Add padding inside the round border */
+  font-family: Wonder;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 120px;
+  background-color: #5bb0cc;
+  margin: 80px 80px;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
 .item {
   display: flex;
   align-items: center; /* Vertically center the content */
@@ -148,7 +164,7 @@ h1 {
   color: #ebeae3
 }
 
-.title {
+.title {  font-family: Wonder;
   padding: 0px 75px 50px 75px;
   font-family: Wonder;
   font-weight: 0;
