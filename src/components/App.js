@@ -21,6 +21,7 @@ import bm from '../assets/bm.png'
 import cs from '../assets/cs.png'
 import ce from '../assets/ce.png'
 import audioFile from '../assets/audio.mp3';
+import thumb from '../assets/thumb.gif'
 
 import '../App.css';
 
@@ -55,8 +56,8 @@ function App() {
           <button className="dropbtn">Buy on exchange</button>
           <div className="dropdown-content-container">
             <a href='https://www.gate.io/trade/SMURFCAT_USDT'><img src={gt} width='80px' alt='exchange'/>GATE</a>
-            <a href='https://www.bitmart.com/trade/en-US?layout=pro&theme=dark&symbol=SMURFCAT_USDT' alt='exchange'><img src={bm} width='80px'/>BitMart</a>
-            <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade' alt='exchange'><img src={mx} width='80px'/>MEXC</a>
+            <a href='https://www.bitmart.com/trade/en-US?layout=pro&theme=dark&symbol=SMURFCAT_USDT'><img src={bm} alt='exchange' width='80px'/>BitMart</a>
+            <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} alt='exchange'width='80px'/>MEXC</a>
             <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px' alt='exchange'/>BITGET</a>
             <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px' alt='exchange'/>POLONIEX</a>
             <a href='https://www.coinstore.com/#/spot/SMURFCATUSDT'><img src={cs} width='80px' alt='exchange'/>COINSTORE</a>
@@ -81,11 +82,6 @@ function App() {
           <p className='caption'>Smurf Cat with Ethereum Crystal - Nate Hallinan 2023</p>
         </div>
         <h1 className='top front'>HE IS REAL.</h1>
-        <a href='https://mint.smurfcat.eth.limo/' className='nft'>
-          Official NFT
-        </a>
-
-
         <div className='container'>
           <a href='https://etherscan.io/token/0xff836a5821e69066c87e268bc51b849fab94240c' className='item'>
             <img src={es} width='40px' alt='etherscan icon' />
@@ -122,7 +118,13 @@ function App() {
             <span>PFP Tool</span>
           </a>
         </div>
-      <p className='title'><span className='blue'>SMURFCAT</span> is a memecoin launched on the ethereum blockchain. he is so cute! this little guy is just going on his jolly way!<br/><br/>the token was created as a tribute to the smurf cat internet meme originally created by nate hallinan, and newly popularized by tiktok.</p>
+        <p className='title'><span className='blue'>SMURFCAT</span> is a memecoin launched on the ethereum blockchain. he is so cute! this little guy is just going on his jolly way!<br/><br/>the token was created as a tribute to the smurf cat internet meme originally created by nate hallinan, and newly popularized by tiktok.</p>
+        <div className='container'>
+          <a href='https://mint.smurfcat.eth.limo' className='itembut'>
+            <img src={thumb} width='100px' alt='hub icon' />
+            <span>Descendants of Smurfcat NFT</span>
+          </a>
+        </div>
         <div className='container'>
           <a href='https://smurfcat.org' className='itembut'>
             <img src={hub} width='100px' alt='hub icon' />
