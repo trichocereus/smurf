@@ -58,7 +58,7 @@ function App() {
             <a href='https://www.gate.io/trade/SMURFCAT_USDT'><img src={gt} width='80px' alt='exchange'/>GATE</a>
             <a href='https://www.bitmart.com/trade/en-US?layout=pro&theme=dark&symbol=SMURFCAT_USDT'><img src={bm} alt='exchange' width='80px'/>BitMart</a>
             <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={mx} alt='exchange'width='80px'/>MEXC</a>
-            <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px' alt='exchange'/>BITGET</a>
+            {/* <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px' alt='exchange'/>BITGET</a> */}
             <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px' alt='exchange'/>POLONIEX</a>
             <a href='https://www.coinstore.com/#/spot/SMURFCATUSDT'><img src={cs} width='80px' alt='exchange'/>COINSTORE</a>
             <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='80px' alt='exchange'/>ASCENDEX</a>
@@ -113,7 +113,7 @@ function App() {
             <img src={tg} width='40px' alt='telegram icon' />
             <span>Telegram</span>
           </a>
-          <a href='https://smurfme.app' className='item'>
+          <a href='https://smurfme.vercel.app' className='item'>
             <img src={hat} width='40px' alt='app icon' />
             <span>PFP Tool</span>
           </a>
