@@ -325,9 +325,10 @@ h1 {
 
 .name {
   padding-top: 50px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   font-size: 160px;
-  margin: 50px 100px;
+  margin-top: 50px;
+  margin-bottom: 10px;
   font-family: Wonder, sans-serif;
   color: #5bb0cc;
 }
