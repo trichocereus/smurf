@@ -324,17 +324,17 @@ h1 {
 }
 
 .name {
-  padding-top: 15px;
+  padding-top: 50px;
   padding-bottom: 15px;
-  font-size: 128px;
+  font-size: 160px;
   margin: 50px 100px;
   font-family: Wonder, sans-serif;
   color: #5bb0cc;
 }
 
 .iname {
-  font-family: Impact;
-  font-size: 126px;
+  font-family: Wonder, sans-serif;
+  font-size: 80px;
   color: #ebeae3;
 }
 

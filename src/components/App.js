@@ -8,7 +8,7 @@ import dx from '../assets/dx.png'
 import td from '../assets/td.png'
 import cmc from '../assets/cmc.png'
 import cg from '../assets/cg.png'
-import bg from '../assets/bg.png'
+// import bg from '../assets/bg.png'
 import pl from '../assets/pl.png'
 import ae from '../assets/ae.png'
 import kym from '../assets/kym.jpg'
@@ -20,8 +20,9 @@ import gt from '../assets/gt.png'
 import bm from '../assets/bm.png'
 import cs from '../assets/cs.png'
 import ce from '../assets/ce.png'
-import audioFile from '../assets/audio.mp3';
+import audioFile from '../assets/audio.mp3'
 import thumb from '../assets/thumb.gif'
+import btse from '../assets/btse.png'
 
 import '../App.css';
 
@@ -51,7 +52,8 @@ function App() {
       </audio>
       )}
       <div>
-        <div className='name'>Real Smurf Cat <span className='iname'>шайлушай</span></div>
+        <div className='name'>Real Smurf Cat</div>
+        {/* <span className='iname'>ERC-20 Token</span> */}
         <div className="dropdown">
           <button className="dropbtn">Buy on exchange</button>
           <div className="dropdown-content-container">
@@ -63,6 +65,7 @@ function App() {
             <a href='https://www.coinstore.com/#/spot/SMURFCATUSDT'><img src={cs} width='80px' alt='exchange'/>COINSTORE</a>
             <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='80px' alt='exchange'/>ASCENDEX</a>
             <a href='https://www.coinex.com/en/info/SMURFCAT'><img src={ce} width='80px' alt='exchange'/>COINEX</a>
+            <a href='https://www.btse.com/en/trading/SMURFCAT-USD'><img src={btse} width='80px' alt='exchange'/>BTSE</a>
           </div>
         </div>
       <div className='dropdown'>
@@ -70,11 +73,11 @@ function App() {
           <button className='uni'>Buy on UniSwap</button>
         </a>
       </div>
-      <div className='dropdown'>
+      {/* <div className='dropdown'>
         <a href='https://flooz.xyz/trade/how-to-buy/0xfF836A5821E69066c87E268bC51b849FaB94240C'>
-          <button className='flooz'>Buy with card</button>
+          <button className='flooz'></button>
         </a>
-      </div>
+      </div> */}
       </div>
       <body>
         <div>
