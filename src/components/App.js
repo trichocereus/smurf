@@ -75,7 +75,7 @@ function App() {
       </div>
       {/* <div className='dropdown'>
         <a href='https://flooz.xyz/trade/how-to-buy/0xfF836A5821E69066c87E268bC51b849FaB94240C'>
-          <button className='flooz'></button>
+          <button className='flooz'>NFT</button>
         </a>
       </div> */}
       </div>
@@ -125,7 +125,7 @@ function App() {
         <div className='container'>
           <a href='https://mint.smurfcat.eth.limo' className='itembut'>
             <img src={thumb} width='100px' alt='hub icon' />
-            <span>Descendants of Smurfcat NFT</span>
+            <span>Descendants of Shailushai NFT</span>
           </a>
         </div>
         <div className='container'>
@@ -135,14 +135,14 @@ function App() {
           </a>
         </div>
       <p className='faqt'>What does шайлушай mean?</p>
-      <p className='faq'><span className='blue'>"Shailushai"</span> is the name that TikTok gave the real smurf cat! It's a gibberish word in Russian but is similar to a word that translates to <span className='blue'>"little scoundrel."</span></p>
+      <p className='faq'><span className='blue'>"Shailushai"</span> is the name that TikTok gave the real smurf cat! It's a gibberish word in Russian but is similar to a word that translates to <span className='blue'>"little scoundrel."</span> Etherscan displays the cyrillic ticker but the token is named <span className='blue'>SMURFCAT</span> across platforms</p>
       <img src={gif} className='dwayne' alt='dwayne'/>
       <p className='faqt'>Why smurfcat.eth.limo?</p>
       <p className='faq'>This website is hosted on the <span className='blue'>interplanetary file system</span> which is a public blockchain for data. It is routed through <span className='blue'>Ethereum</span> Name Service and the browser reads <span className='blue'>ipfs</span> data through a "limo" extension. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
       <img src={td} width='400px' alt='real'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
       <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>
-      <p className='blue smol'>real smurf cat contact: smurfcatETHlimo@gmail.com</p>
+      <p className='blue smol'>real smurf cat contact: realsmurfcat@outlook.com</p>
     </body>
   </div>
   );
