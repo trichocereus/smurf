@@ -116,7 +116,7 @@ function App() {
             <img src={tg} width='40px' alt='telegram icon' />
             <span>Telegram</span>
           </a>
-          <a href='https://smurfme.vercel.app' className='item'>
+          <a href='https://smurfme.xyz/' className='item'>
             <img src={hat} width='40px' alt='app icon' />
             <span>PFP Tool</span>
           </a>
