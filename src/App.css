@@ -339,9 +339,18 @@ h1 {
   color: #ebeae3;
 }
 
+.footer {
+  margin: 100px 100px 0 100px
+}
+
 .blue {
   color: #5bb0cc;
   font-size: 48px;
+}
+
+.wht {
+  color: #ffffff;
+  font-size: 30px;
 }
 
 .smol {

@@ -15,7 +15,7 @@ import kym from '../assets/kym.jpg'
 import mx from '../assets/mx.png'
 import gif from '../assets/gif.GIF'
 import hat from '../assets/hat.png'
-import hub from '../assets/hub.png'
+// import hub from '../assets/hub.png'
 import gt from '../assets/gt.png'
 import bm from '../assets/bm.png'
 import cs from '../assets/cs.png'
@@ -128,12 +128,12 @@ function App() {
             <span>Descendants of Shailushai NFT</span>
           </a>
         </div>
-        <div className='container'>
+        {/* <div className='container'>
           <a href='https://smurfcat.org' className='itembut'>
             <img src={hub} width='100px' alt='hub icon' />
             <span>Check out SMURFCAT.ORG</span>
           </a>
-        </div>
+        </div> */}
       <p className='faqt'>What does шайлушай mean?</p>
       <p className='faq'><span className='blue'>"Shailushai"</span> is the name that TikTok gave the real smurf cat! It's a gibberish word in Russian but is similar to a word that translates to <span className='blue'>"little scoundrel."</span> Etherscan displays the cyrillic ticker but the token is named <span className='blue'>SMURFCAT</span> across platforms</p>
       <img src={gif} className='dwayne' alt='dwayne'/>
@@ -142,7 +142,13 @@ function App() {
       <img src={td} width='400px' alt='real'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
       <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>
-      <p className='blue smol'>real smurf cat contact: realsmurfcat@outlook.com</p>
+      <section className='footer'>
+        {/* <p className='blue smol'>real smurf cat contact: realsmurfcat@outlook.com</p> */}
+        <p className='blue smol'><span className='wht'>$SMURFCAT </span> is recognized by but not officially affiliated with Nate Halllinan. </p>
+        <p className='blue smol'>This token is simply paying homage to a meme we all love and recognize.</p>
+        <p className='blue smol'><span className='wht'>$SMURFCAT </span>is a meme coin with no intrinsic value or expectation of financial return. 
+        There is no formal team or roadmap. the coin is completely useless and for <span className='wht'>entertainment purposes only</span>.</p>
+      </section>
     </body>
   </div>
   );
