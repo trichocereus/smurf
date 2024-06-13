@@ -108,7 +108,7 @@ function App() {
             <img src={kym} width='40px' alt='history icon' />
             <span>History</span>
           </a>
-          <a href='https://twitter.com/smurfcateth' className='item'>
+          <a href='https://twitter.com/smurfcatethfam' className='item'>
             <img src={tw} width='40px' alt='twitter icon' />
             <span>Twitter</span>
           </a>
