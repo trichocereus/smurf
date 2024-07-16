@@ -144,7 +144,7 @@ function App() {
       <p className='fairy'>concept by nate hallinan 2011, made possible by dmitri</p>
       <section className='footer'>
         {/* <p className='blue smol'>real smurf cat contact: realsmurfcat@outlook.com</p> */}
-        <p className='blue smol'><span className='wht'>$SMURFCAT </span> is recognized by but not officially affiliated with Nate Halllinan. </p>
+        <p className='blue smol'><span className='wht'>$SMURFCAT </span> is not affiliated with Studio Peyo or Nate Halllinan. </p>
         <p className='blue smol'>This token is simply paying homage to a meme we all love and recognize.</p>
         <p className='blue smol'><span className='wht'>$SMURFCAT </span>is a meme coin with no intrinsic value or expectation of financial return. 
         There is no formal team or roadmap. the coin is completely useless and for <span className='wht'>entertainment purposes only</span>.</p>
