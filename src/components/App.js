@@ -123,12 +123,6 @@ function App() {
         </div>
         <p className='title'><span className='blue'>SMURFCAT</span> is a memecoin launched on the ethereum blockchain. he is so cute! this little guy is just going on his jolly way!<br/><br/>the token was created as a tribute to the smurf cat internet meme originally created by nate hallinan, and newly popularized by tiktok.</p>
         <div className='container'>
-          <a href='https://mint.smurfcat.eth.limo' className='itembut'>
-            <img src={thumb} width='100px' alt='hub icon' />
-            <span>Descendants of Shailushai NFT</span>
-          </a>
-        </div>
-        <div className='container'>
           <a href='https://smurfcat.org' className='itembut'>
             <img src={hub} width='100px' alt='hub icon' />
             <span>Check out SMURFCAT.ORG</span>
@@ -141,8 +135,14 @@ function App() {
       <p className='faq'>This website is hosted on the <span className='blue'>interplanetary file system</span> which is a public blockchain for data. It is routed through <span className='blue'>Ethereum</span> Name Service and the browser reads <span className='blue'>ipfs</span> data through a "limo" extension. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
       <img src={td} width='400px' alt='real'/>
       <p className='title front'>ZERO TAX, CONTRACT RENOUNCED,<br/>100% OF SUPPLY SENT TO UNISWAP & LP BURNT</p>
+      <div className='container'>
+        <a href='https://mint.smurfcat.eth.limo' className='itembut'>
+          <img src={thumb} width='100px' alt='hub icon' />
+          <span>Descendants of Shailushai NFT</span>
+        </a>
+      </div>
       <p className='fairy'>concept by nate hallinan 2011</p>
-      <p className='blue smol'>contact: SmurfcatETHlimo@gmail.com</p>
+      <p className='blue smol'>contact: community@smurfcat.org</p>
       <section className='footer'>
         {/* <p className='blue smol'>real smurf cat contact: realsmurfcat@outlook.com</p> */}
         <p className='blue smol'><span className='wht'>$SMURFCAT </span> is not affiliated with Studio Peyo or Nate Halllinan. </p>
