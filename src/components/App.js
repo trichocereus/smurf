@@ -142,7 +142,7 @@ function App() {
         </a>
       </div>
       <p className='fairy'>concept by nate hallinan 2011</p>
-      <p className='blue smol'>contact: community@smurfcat.org</p>
+      <p className='blue smol'>contact: admin@smurfcat.org</p>
       <section className='footer'>
         {/* <p className='blue smol'>real smurf cat contact: realsmurfcat@outlook.com</p> */}
         <p className='blue smol'><span className='wht'>$SMURFCAT </span> is not affiliated with Studio Peyo or Nate Halllinan. </p>
