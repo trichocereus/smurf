@@ -16,6 +16,7 @@ import mx from '../assets/mx.png'
 import gif from '../assets/gif.GIF'
 import hat from '../assets/hat.png'
 import hub from '../assets/hub.png'
+import tt from '../assets/tt.png'
 import gt from '../assets/gt.png'
 import bm from '../assets/bm.png'
 import cs from '../assets/cs.png'
@@ -130,6 +131,12 @@ function App() {
         </div>
       <p className='faqt'>What does шайлушай mean?</p>
       <p className='faq'><span className='blue'>"Shailushai"</span> is the name that TikTok gave the real smurf cat! It's a gibberish word in Russian but is similar to a word that translates to <span className='blue'>"little scoundrel."</span> Etherscan displays the cyrillic ticker but the token is named <span className='blue'>SMURFCAT</span> across platforms</p>
+      <div className='container'>
+          <a href='https://www.tiktok.com/@smurfcatcorp?lang=en' className='itembut'>
+            <img src={tt} height='70px' alt='hub icon' />
+            <span>Follow on TikTok</span>
+          </a>
+      </div>
       <img src={gif} className='dwayne' alt='dwayne'/>
       <p className='faqt'>Why smurfcat.eth.limo?</p>
       <p className='faq'>This website is hosted on the <span className='blue'>interplanetary file system</span> which is a public blockchain for data. It is routed through <span className='blue'>Ethereum</span> Name Service and the browser reads <span className='blue'>ipfs</span> data through a "limo" extension. This makes it completely <span className='blue'>decentralized</span> by nature!</p>
