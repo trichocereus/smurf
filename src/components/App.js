@@ -78,9 +78,9 @@ function App() {
         <div className="dropdown">
           <button className="dropbtn">Buy on-chain</button>
           <div className="dropdown-content-container">
-            <a href='https://www.gate.io/trade/SMURFCAT_USDT'><img src={unis} width='80px' alt='exchange'/>ETHEREUM</a>
-            <a href='https://www.bitmart.com/trade/en-US?layout=pro&theme=dark&symbol=SMURFCAT_USDT'><img src={jupi} alt='exchange' width='80px'/>SOLANA</a>
-            <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={sush} alt='exchange'width='80px'/>ARBITRUM</a>
+            <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'><img src={unis} width='80px' alt='exchange'/>ETHEREUM</a>
+            <a href='https://jup.ag/swap/SOL-5UofhCbmro2tGB7Ji49SfqFag8j7ymrRyCmBTCZXGQQa'><img src={jupi} alt='exchange' width='80px'/>SOLANA</a>
+            <a href='https://www.sushi.com/ethereum/swap?token0=0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1&token1=0xfF836A5821E69066c87E268bC51b849FaB94240C'><img src={sush} alt='exchange'width='80px'/>ARBITRUM</a>
           </div>
         </div>
         {/* <div className='dropdown'>
