@@ -10,7 +10,7 @@ import cmc from '../assets/cmc.png'
 import cg from '../assets/cg.png'
 // import bg from '../assets/bg.png'
 import pl from '../assets/pl.png'
-import ae from '../assets/ae.png'
+// import ae from '../assets/ae.png'
 import kym from '../assets/kym.jpg'
 import mx from '../assets/mx.png'
 import gif from '../assets/gif.GIF'
@@ -21,6 +21,11 @@ import gt from '../assets/gt.png'
 import bm from '../assets/bm.png'
 import cs from '../assets/cs.png'
 import ce from '../assets/ce.png'
+
+import unis from '../assets/unis.PNG'
+import jupi from '../assets/jupi.PNG'
+import sush from '../assets/sush.PNG'
+
 import audioFile from '../assets/audio.mp3'
 import thumb from '../assets/thumb.gif'
 import btse from '../assets/btse.png'
@@ -40,7 +45,7 @@ function App() {
     setModalVisible(false);
     setAudioPlaying(true);
   };
-
+  
   return (
     <div className="App">
       <div className='welcome'>
@@ -54,6 +59,7 @@ function App() {
       )}
       <div>
         <div className='name'>Real Smurf Cat</div>
+         
         {/* <span className='iname'>ERC-20 Token</span> */}
         <div className="dropdown">
           <button className="dropbtn">Buy on exchange</button>
@@ -64,21 +70,29 @@ function App() {
             {/* <a href='https://www.bitget.com/spot/SMURFCATUSDT?type=spot'><img src={bg} width='80px' alt='exchange'/>BITGET</a> */}
             <a href='https://poloniex.com/trade/SMURFCAT_USDT?type=spot'><img src={pl} width='80px' alt='exchange'/>POLONIEX</a>
             <a href='https://www.coinstore.com/#/spot/SMURFCATUSDT'><img src={cs} width='80px' alt='exchange'/>COINSTORE</a>
-            <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='80px' alt='exchange'/>ASCENDEX</a>
+            {/* <a href='https://ascendex.com/en/cashtrade-spottrading/usdt/smurfcat'><img src={ae} width='80px' alt='exchange'/>ASCENDEX</a> */}
             <a href='https://www.coinex.com/en/info/SMURFCAT'><img src={ce} width='80px' alt='exchange'/>COINEX</a>
             <a href='https://www.btse.com/en/trading/SMURFCAT-USD'><img src={btse} width='80px' alt='exchange'/>BTSE</a>
           </div>
         </div>
-      <div className='dropdown'>
-        <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'>
-          <button className='uni'>Buy on UniSwap</button>
-        </a>
-      </div>
-      {/* <div className='dropdown'>
-        <a href='https://flooz.xyz/trade/how-to-buy/0xfF836A5821E69066c87E268bC51b849FaB94240C'>
-          <button className='flooz'>NFT</button>
-        </a>
-      </div> */}
+        <div className="dropdown">
+          <button className="dropbtn">Buy on-chain</button>
+          <div className="dropdown-content-container">
+            <a href='https://www.gate.io/trade/SMURFCAT_USDT'><img src={unis} width='80px' alt='exchange'/>ETHEREUM</a>
+            <a href='https://www.bitmart.com/trade/en-US?layout=pro&theme=dark&symbol=SMURFCAT_USDT'><img src={jupi} alt='exchange' width='80px'/>SOLANA</a>
+            <a href='https://www.mexc.com/exchange/SMURFCAT_USDT?_from=search_spot_trade'><img src={sush} alt='exchange'width='80px'/>ARBITRUM</a>
+          </div>
+        </div>
+        {/* <div className='dropdown'>
+          <a href='https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xfF836A5821E69066c87E268bC51b849FaB94240C'>
+            <button className='uni'>Buy with ETH</button>
+          </a>
+        </div>
+        <div className='dropdown'>
+          <a href='https://jup.ag/swap/SOL-5UofhCbmro2tGB7Ji49SfqFag8j7ymrRyCmBTCZXGQQa'>
+            <button className='jupp'>Buy with SOL</button>
+          </a>
+        </div> */}
       </div>
       <body>
         <div>
